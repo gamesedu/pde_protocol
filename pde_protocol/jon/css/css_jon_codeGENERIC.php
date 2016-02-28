@@ -1,0 +1,267 @@
+
+<style type="text/css">
+/**
+* Stylesheet copyright:27 November 2006 by Doug Hockinson (www.hockinson.com)
+* For distribution with PHP Form Generator (www.php-form-generator.com/phpmyedit/)
+* Class names ending in "-right-justify" apply to forms created by the aforementioned project.
+* Works with modern versions of all web browsers (not Netscape 4).
+* Style names that include "pme" relate to phpMyEdit-specific styles.
+* You may want to specify a complete URL for the background image below.
+*/
+a,
+a:active,
+a:link,
+a:visited{
+background-color:transparent;
+color:#000000;
+}
+a:hover{
+background-color:transparent;
+color:#FF0000;
+}
+a.pme-tab{
+background-color:transparent;
+color:#999999;
+}
+a.pme-tab-selected{
+background-color:transparent;
+color:#000000;
+}
+body{
+background-color:#F0F0F0;
+background-image:url("../images/tile.jpg");
+background-repeat:repeat;
+color:#000000;
+font-family:verdana,helvetica,arial,sans-serif;
+font-size:x-small;
+font-weight:normal;
+line-height:140%;/* Enhances overall spacing when set to more than 100% */
+margin:20px;
+}
+h3{
+font-family:verdana,helvetica,sans-serif;
+font-size:small;
+font-weight:bold;
+}
+hr,hr.pme-hr{
+background-color:transparent;
+color:#CCCCCC;
+height:1px;
+margin:5px 0px;
+}
+/* Expand the margin around navigation images */
+img.pme-navigation-0,
+img.pme-navigation-1{
+margin:3px 1px;
+}
+/* Font specification for form tags */
+input,
+select,
+textarea{
+font-family:verdana,helvetica,arial,sans-serif;
+font-size:x-small;
+font-weight:normal;
+margin:1px;
+}
+/* Buttons:Pagination */
+input.pme-add,
+input.pme-first,
+input.pme-prev,
+input.pme-next,
+input.pme-last{
+background-color:#F0F8FF;
+border:thin outset #6699CC;
+color:#000099;
+}
+/* Buttons:General */
+input.pme-cancel,
+input.pme-more,
+input.pme-save,
+input.pme-change,
+input.pme-copy,
+input.pme-delete,
+input.pme-goto,
+input.pme-navigation-0,
+input.pme-navigation-1,
+input.pme-view{
+background-color:#F0F8FF;
+border:thin outset #6699CC;
+color:#000000;
+}
+/* Buttons:Search / Filter records */
+input.pme-filter,
+input.pme-filter-right-justify{
+background-color:#F0F8FF;
+border:1px solid #003366;
+color:#000000;
+}
+/* Text INPUT boxes Add,Change,coPy modes */
+input.pme-input-0-right-justify,
+input.pme-input-0,
+input.pme-input-1-right-justify,
+input.pme-input-1{
+background-color:#FFFFFF;
+color:#000000;
+}
+/* Buttons:Hide,Clear,Query buttons */
+input.pme-search,
+input.pme-hide,
+input.pme-query,
+input.pme-clear{
+background-color:#F0F8FF;
+border:thin outset #6699CC;
+color:#000000;
+}
+pre{
+font-family:verdana,helvetica,arial,sans-serif;
+font-weight:normal;
+}
+table{
+border-collapse:collapse;
+}
+table.container{
+background-color:#FFFFFF;
+border:thin outset #CCCCCC;
+color:#000000;
+}
+table.pme-tab{
+margin:10px 0px;
+}
+td{
+padding:5px;
+}
+/* table.container tends to over-ride this */
+td.container{
+border:1px solid #000000;
+padding:8px 20px;
+}
+/* border-bottom for List mode */
+td.pme-cell-0-right-justify,
+td.pme-cell-0,
+td.pme-cell-1-right-justify,
+td.pme-cell-1,
+td.pme-filter-right-justify,
+td.pme-filter,
+td.pme-navigation-0,
+td.pme-navigation-1,
+td.pme-queryinfo,
+td.pme-sortinfo,
+th.pme-header-right-justify,
+th.pme-header{
+border-bottom:1px solid #CCCCCC;
+}
+td.pme-filter{
+text-align:center;
+}
+td.pme-message,
+td.pme-stats,
+p.pme-message{
+background-color:transparent;
+color:#000099;
+margin-left:3px;
+vertical-align:middle;
+}
+td.pme-tab{
+padding:0px 5px;
+}
+td.pme-tab-selected{
+padding:0px 5px;
+}
+th{
+border-bottom:1px solid #999999;
+border-top:1px solid #999999;
+font-family:verdana,helvetica,arial,sans-serif;
+padding:5px;
+}
+/* Prevent navigation cells V-C-P-D from wrapping */
+th.pme-header,
+td.pme-navigation-0,
+td.pme-navigation-1{
+text-align:center;
+white-space:nowrap;
+}
+tr{
+vertical-align:top;
+}
+tr.pme-filter,
+tr.sort-info{
+background-color:#F8F8F8;
+color:#000000;
+}
+tr.pme-header{
+background-color:#FFFFFF;
+color:#000000;
+}
+/* Classses cause undesirable alternating row color in ACPDV modes */
+tr.pme-row-0,
+tr.pme-row-0-right-justify,
+tr.pme-row-1,
+tr.pme-row-1-right-justify{
+border-bottom:1px solid #CCCCCC;
+}
+.contrast{
+background-color:transparent;
+color:#FF0000;
+}
+.pme-add,
+.pme-buttons,
+.pme-cancel,
+.pme-cell-0,
+.pme-cell-1,
+.pme-change,
+.pme-clear,
+.pme-copy,
+.pme-delete,
+.pme-filter-right-justify,
+.pme-filter,
+.pme-first,
+.pme-form,
+.pme-goto,
+.pme-header-right-justify,
+.pme-header,
+.pme-help-0,
+.pme-help-1,
+.pme-hide,
+.pme-input-0-right-justify,
+.pme-input-0,
+.pme-input-1-right-justify,
+.pme-input-1,
+.pme-key-0-right-justify,
+.pme-key-0,
+.pme-key-1-right-justify,
+.pme-key-1,
+.pme-last,
+.pme-main,
+.pme-message,
+.pme-more,
+.pme-navigation-0,
+.pme-navigation-1,
+.pme-navigation,
+.pme-next,
+.pme-prev,
+.pme-query,
+.pme-queryinfo,
+.pme-row-0-right-justify,
+.pme-row-0,
+.pme-row-1-right-justify,
+.pme-row-1,
+.pme-save,
+.pme-search,
+.pme-sortinfo,
+.pme-stats,
+.pme-value-0-right-justify,
+.pme-value-0,
+.pme-value-1-right-justify,
+.pme-value-1,
+.pme-view{
+font-family:verdana,helvetica,arial,sans-serif;
+font-weight:normal;
+}
+.pme-header-right-justify,
+.pme-cell-0-right-justify,
+.pme-cell-1-right-justify{
+font-family:verdana,helvetica,arial,sans-serif;
+font-weight:normal;
+text-align:right;
+}
+</style>
