@@ -1,2 +1,3 @@
 # pde_protocol
-Example usage of phpmyedit
+Example applications using phpmyedit
+Mainly for testing...
